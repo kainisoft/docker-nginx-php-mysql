@@ -130,7 +130,7 @@ cd docker-nginx-php-mysql
     │   └── test
     │       ├── FooTest.php
     │       └── bootstrap.php
-    └── public
+    └── sites
         └── index.php
 ```
 
