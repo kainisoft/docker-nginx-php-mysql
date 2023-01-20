@@ -47,5 +47,6 @@ services:
             redis-server --save 20 1 --loglevel warning
         volumes:
             - "./data/cache:/data"
+            - ./etc/redis/redis.conf:/data/redis.conf
         environment:
             - REDIS_PASSWORD=eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81
